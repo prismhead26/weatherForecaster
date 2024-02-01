@@ -2,7 +2,7 @@
 
 ## Description
 
-The main goal of this project is to build a weather dashboard that will run in the browser and will feature dynamically updated HTML and CSS powered by jQuery. It will also have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+The main goal of this project is to build a weather dashboard that will run in the browser and will feature dynamically updated HTML and CSS. It will also have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 <br>
 After completion of the project, I have a better understanding of API's and how to implement the interfaces into the HTML file. I also learned the openWeatherMap API and really enjoyed the ability to fetch/modify the data requested. And lastly I learned some better ways to refactor the JavaScript code by implmenting a for loop creating DOM elements, thus making the code shorter and more modular!
 
