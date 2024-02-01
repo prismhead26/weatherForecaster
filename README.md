@@ -4,7 +4,7 @@
 
 The main goal of this project is to build a weather dashboard that will run in the browser and will feature dynamically updated HTML and CSS powered by jQuery. It will also have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 <br>
-After completion of the project, I have a better understanding of API's and how to implement the interfaces into the HTML file. I also learned Day.js and really enjoyed the ability to modify the format. And lastly I learned some better ways to refactor the JavaScript code by using jQuery, thus making the code shorter and more modular!
+After completion of the project, I have a better understanding of API's and how to implement the interfaces into the HTML file. I also learned the openWeatherMap API and really enjoyed the ability to fetch/modify the data requested. And lastly I learned some better ways to refactor the JavaScript code by implmenting a for loop creating DOM elements, thus making the code shorter and more modular!
 
 ## Table of Contents
 
@@ -40,7 +40,7 @@ Here's what the expected output should be:
 
 Link to deployed application:
 <br>
-[logo]: https://prismhead26.github.io/weatherForecaster/ "Daily Work Scheduler live application"
+[logo]: https://prismhead26.github.io/weatherForecaster/ "Weather Forecaster live application"
 <br>
 Link to HTML file:
 <br>
@@ -68,21 +68,21 @@ Please refer to the LICENSE in the repo.
 
 ## Badges!
 
-![Static Badge](https://img.shields.io/badge/HTML%20-67%25%20-orange)
+![Static Badge](https://img.shields.io/badge/HTML%20-17%25%20-orange)
 <br>
 
-![Static Badge](https://img.shields.io/badge/CSS%20-12%25%20-purple)
+![Static Badge](https://img.shields.io/badge/CSS%20-8%25%20-purple)
 <br>
 
-![Static Badge](https://img.shields.io/badge/Javascript%20-21%25%20-yellow)
+![Static Badge](https://img.shields.io/badge/Javascript%20-75%25%20-yellow)
 
 ## Features
 
-JavaScript, variables, functions, arrow functions, conditional statements, DOM HTML, time inerval, etc.
+JavaScript, variables, functions, arrow functions, conditional statements, fetch API, DOM HTML, etc.
 <br>
-CSS starter template.
+CSS starter template and animations using keyframes.
 <br>
-HTML template with semantic elements, save buttons, etc.
+HTML template with semantic elements, styling, buttons, etc.
 
 ## Tests
 
@@ -93,7 +93,11 @@ I would also have DevTools open to see the logs.
 
 Here are all of the API's used with a reference to their URL.
 
-If the API fails, feel free to sign up on the API's website and insert the updated API_Key in the Javascript file.
+If the weather API fails, feel free to sign up on the API's website and insert the updated API_Key in the Javascript file.
 <br>
 
 [openWeatherMap API](https://openweathermap.org/)
+
+<br>
+
+[Google_Fonts API](https://fonts.googleapis.com)
