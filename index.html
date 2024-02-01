@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forcasted Weather</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+</head>
+<body>
+    <header id="title">Weather Forecast</header>
+        <div id="container" style="display:flex; justify-content: space-around;">
+        <div class="searchBtnContainer" >
+            <div>
+                <label style="font-weight: 900; font-size: 1.3rem">City:</label>
+                <input id="city">
+                <button id="searchBtn">submit</button>
+            </div>
+            <section id="city-history"></section>
+        </div>
+        <div style="width: 70%;">
+            <div>
+                <h2>Today's Weather:</h2>
+                <div id="today" style="display: flex; flex-direction: column; align-items: center; border: 4px solid purple;border-radius: 20px;"></div>
+            </div>
+            <div>
+                <h2>Future Weather Forecast:</h2>
+                <div id="future" style="display: flex; justify-content: space-around;"></div>
+            </div>
+        </div>
+</div>
+    <script src="./assets/JS/script.js"></script>
+</body>
+</html>

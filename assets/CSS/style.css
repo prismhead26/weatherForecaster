@@ -1,0 +1,37 @@
+/* title animation */
+header {
+    animation: colorChange 5s infinite alternate;
+    font-size: 3rem;
+}
+
+@keyframes colorChange {
+    0% {
+        color: indigo
+    }
+    20% {
+        color: blue
+    }
+    40% {
+        color: green
+    }
+    60% {
+        color: yellow
+    }
+    80% {
+        color: orange
+    }
+    100% {
+        color: red
+    }
+}
+.searchBtnContainer {
+    width: 20%;
+}
+
+/* adds better readability to smaller screens */
+@media screen and (max-width: 600px) {
+    #container, #future, .searchBtnContainer, body {
+    flex-direction: column;
+    width: 100%;
+    }
+}
